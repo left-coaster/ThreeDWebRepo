@@ -1,0 +1,163 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "OakTree",
+            "rotation" : [
+                0,
+                0,
+                0.0049594431184232235,
+                0.9999877214431763
+            ],
+            "scale" : [
+                0.059348225593566895,
+                0.059348225593566895,
+                0.059348225593566895
+            ],
+            "translation" : [
+                0.028010739013552666,
+                0.0014011561870574951,
+                0.13746009767055511
+            ]
+        },
+        {
+            "name" : "Cylinder",
+            "scale" : [
+                0.11827987432479858,
+                0.11827987432479858,
+                0.11827987432479858
+            ],
+            "translation" : [
+                -1.6379903554916382,
+                0.26932305097579956,
+                -0.2055877447128296
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "OakTreeMaterial",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "OakTreeTexture",
+            "uri" : "http://localhost/threeJSTest/scene/textures/OakTreeTexture.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 6221,
+            "max" : [
+                5.386411190032959,
+                14.311317443847656,
+                4.3297038078308105
+            ],
+            "min" : [
+                -6.306791305541992,
+                -0.013750160112977028,
+                -2.5606462955474854
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6221,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6221,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 7041,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 74652,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74652,
+            "byteOffset" : 74652
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 49768,
+            "byteOffset" : 149304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14082,
+            "byteOffset" : 199072
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 213156,
+            "uri" : "OakTree_LP_TexPaint.bin"
+        }
+    ]
+}
